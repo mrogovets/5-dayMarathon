@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 100vh;
 }
 
@@ -41,6 +41,7 @@ body {
   font-size: 40px;
   margin-bottom: 10px;
   margin-top: -30px;
+  margin-left: 10px;
 }
 
 .main-slide {
