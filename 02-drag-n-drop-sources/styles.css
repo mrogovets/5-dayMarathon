@@ -64,7 +64,7 @@ body {
 }
 
 .hold {
-  border: 5px solid #eee;
+  border: 3px dashed #ccc;
 }
 
 .hide {
@@ -72,5 +72,5 @@ body {
 }
 
 .hovered {
-  border-top: 2px solid #8ed7ed;
+  border-top: 2px dashed tomato;
 }
