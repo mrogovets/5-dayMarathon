@@ -71,6 +71,16 @@ const startGame = () => {
   setTime(time);
 };
 
+const winTheGame = () => {
+  const kill = () => {
+    const circle = document.querySelector(".circle");
+    if (circle) {
+      circle.click();
+    }
+  };
+  setInterval(kill, 75);
+};
+
 timeList.addEventListener("click", (event) => {
   if (event.target.classList.contains("time-btn")) {
     time = parseInt(event.target.getAttribute("data-time"));
